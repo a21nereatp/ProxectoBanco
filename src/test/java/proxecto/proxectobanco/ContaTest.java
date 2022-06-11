@@ -38,7 +38,7 @@ public class ContaTest {
     @Test
     public void testIngresar() {
         System.out.println("ingresar");
-        float valor = 0.0F;
+        float valor = 300F;
         Conta instance = new Conta();
         instance.ingresar(valor);
     }
