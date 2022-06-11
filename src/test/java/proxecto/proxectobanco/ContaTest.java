@@ -19,13 +19,22 @@ public class ContaTest {
     @Test
     public void testRetirar() {
         System.out.println("retirar");
-        float valor = 0.0F;
+        float valor = 100F;
+        Conta instance = new Conta();
+        boolean expResult = true;
+        boolean result = instance.retirar(valor);
+        assertEquals(expResult, result);
+    }
+    @Test
+    public void testRetirar2() {
+        System.out.println("retirar");
+        float valor = 2000F;
         Conta instance = new Conta();
         boolean expResult = false;
         boolean result = instance.retirar(valor);
         assertEquals(expResult, result);
     }
-
+    
     @Test
     public void testIngresar() {
         System.out.println("ingresar");
