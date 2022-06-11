@@ -20,8 +20,13 @@ public class Conta {
         setSaldo(getSaldo() - valor);
         return true;
     }
+    
     public void ingresar(float valor){
         setSaldo(getSaldo() + valor);
+    }
+    
+    public void inicializarSaldo(float valor){ 
+        this.saldo=0.00f; 
     }
 
     /**
