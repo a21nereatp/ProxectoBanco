@@ -11,10 +11,10 @@ public class Especial extends Conta{
         limite=0.00f;
     }
     public boolean retirar(float valor){
-        if (saldo-valor<0)
-            if ((saldo-valor)*-1>limite)
+        if (getSaldo()-valor<0)
+            if ((getSaldo()-valor)*-1>limite)
                 return false;
-        saldo-=valor;
+        setSaldo(getSaldo() - valor);
         return true;
     }
 }
