@@ -12,7 +12,7 @@ public class Conta {
     public Conta() {
         titular=null;
         numero=null;
-        saldo=0.00f;
+        saldo=1000f;
     }
     public boolean retirar(float valor){
         if (saldo-valor<0)
