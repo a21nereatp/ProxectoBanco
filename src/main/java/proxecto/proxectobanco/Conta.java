@@ -5,7 +5,7 @@ package proxecto.proxectobanco;
  * @author profesor
  */
 public class Conta {
-    protected Individuo titular;
+    protected Persoa titular;
     protected String numero;
     protected float saldo;
 

@@ -4,7 +4,7 @@ package proxecto.proxectobanco;
  *
  * @author profesor
  */
-public class Individuo{
+public class Persoa{
     private String nome;
     private String enderezo;
     private String cidade;
@@ -12,7 +12,7 @@ public class Individuo{
     private String telefono;
     private String email;
 
-    public Individuo() {
+    public Persoa() {
         nome=null;
         enderezo=null;
         cidade=null;
